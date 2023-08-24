@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_04=self.webpackChunk_04||[]).push([[575],{575:function(e,n,r){r.r(n);var c=r(184);n.default=function(){return(0,c.jsx)("footer",{children:(0,c.jsx)("p",{children:"created by @mcnwr76"})})}}}]);
+//# sourceMappingURL=575.c6d60f7c.chunk.js.map
