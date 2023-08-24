@@ -1,0 +1,51 @@
+.home {
+  background: linear-gradient(
+    to left,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(240, 240, 240, 1) 100%
+  );
+
+  input {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 250ms ease-in-out;
+  }
+
+  input:hover {
+    font-weight: 900;
+    transition: 250ms ease-in-out;
+    background-color: #ffd700;
+  }
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+table {
+  margin-top: 4rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+td:nth-child(odd) {
+  font-weight: 600;
+}
+
+td:nth-child(even) {
+  font-style: italic;
+}

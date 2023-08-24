@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    to left,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(230, 230, 230, 1) 100%
+  );
+}
+
+section {
+  padding: 10rem 0px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(220, 220, 220, 0.5);
+}
+
+.nav-contain a {
+  font-size: 18px;
+}
+
+.nav-contain a:hover {
+  text-decoration: underline;
+}
+
+.brand a {
+  color: rgba(100, 100, 100, 0.9);
+  background-color: #ffd700;
+  border-radius: 100%;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.textarea {
+  color: red;
+}
+
+.fieldset {
+  border-color: black;
+  border-style: solid;
+}
+
+footer {
+  background: rgba(200, 200, 200, 0.1);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}

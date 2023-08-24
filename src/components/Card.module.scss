@@ -1,0 +1,33 @@
+.card {
+  width: 15rem;
+  height: 20rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: orange;
+  box-shadow: 2px 4px 2px 4px rgb(180, 180, 180);
+  margin: 4rem;
+
+  button {
+    margin-top: 3rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    transition: 250ms ease-in-out;
+    align-items: center;
+  }
+
+  button:hover {
+    background-color: yellow;
+    transition: 250ms ease-in-out;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}
